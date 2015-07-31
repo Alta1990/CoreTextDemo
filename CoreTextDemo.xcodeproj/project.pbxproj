@@ -14,6 +14,7 @@
 		2D08BCBF1B2B0E14007217CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D08BCBE1B2B0E14007217CD /* Images.xcassets */; };
 		2D08BCC21B2B0E14007217CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D08BCC01B2B0E14007217CD /* LaunchScreen.xib */; };
 		2D08BCCE1B2B0E14007217CD /* CoreTextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D08BCCD1B2B0E14007217CD /* CoreTextDemoTests.m */; };
+		2D08BCD91B2B0E32007217CD /* CTDDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D08BCD81B2B0E32007217CD /* CTDDisplayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2D08BCC71B2B0E14007217CD /* CoreTextDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTextDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D08BCCC1B2B0E14007217CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D08BCCD1B2B0E14007217CD /* CoreTextDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreTextDemoTests.m; sourceTree = "<group>"; };
+		2D08BCD71B2B0E32007217CD /* CTDDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTDDisplayView.h; path = ../CTDDisplayView.h; sourceTree = "<group>"; };
+		2D08BCD81B2B0E32007217CD /* CTDDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTDDisplayView.m; path = ../CTDDisplayView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				2D08BCB61B2B0E14007217CD /* AppDelegate.m */,
 				2D08BCB81B2B0E14007217CD /* ViewController.h */,
 				2D08BCB91B2B0E14007217CD /* ViewController.m */,
+				2D08BCD71B2B0E32007217CD /* CTDDisplayView.h */,
+				2D08BCD81B2B0E32007217CD /* CTDDisplayView.m */,
 				2D08BCBB1B2B0E14007217CD /* Main.storyboard */,
 				2D08BCBE1B2B0E14007217CD /* Images.xcassets */,
 				2D08BCC01B2B0E14007217CD /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				2D08BCBA1B2B0E14007217CD /* ViewController.m in Sources */,
 				2D08BCB71B2B0E14007217CD /* AppDelegate.m in Sources */,
 				2D08BCB41B2B0E14007217CD /* main.m in Sources */,
+				2D08BCD91B2B0E32007217CD /* CTDDisplayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
