@@ -16,8 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *str=@"dfcvbnghghg";
-    NSString *str_close=@"hjhu";
+    NSArray *alist=@[@"hello,",@"nice to meet",@"you"];
+    NSString *str=[alist componentsJoinedByString:@" "];
+    NSLog(@"%@",str);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
